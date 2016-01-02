@@ -16,3 +16,4 @@ deploy:
         token: $GIT_TOKEN
         domain: www.feliperuhland.com
         basedir: public
+        branch: master
