@@ -3,6 +3,9 @@ languageCode: en-us
 title: Felipe Ruhland
 copyright: "&copy; Felipe Ruhland. All Rights Reserved."
 canonifyurls: true
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
 
 params:
   ga_api_key: "Your Google Analytics tracking id" # Google Analytics API key.
