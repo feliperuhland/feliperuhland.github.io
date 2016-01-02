@@ -12,8 +12,10 @@ deploy:
   steps:
     - install-packages:
         packages: git ssh-client
-    - lukevivier/gh-pages@0.2.1:
-        token: $GIT_TOKEN
-        domain: www.feliperuhland.com
+    - leipert/git-push:
+        gh_oauth: $GIT_TOKEN
         basedir: public
-        branch: dev
+        clean_removed_files: true
+        branch: master
+        repo: feliperuhland/feliperuhland.github.io
+        gh_pages_domain: www.feliperuhland.com
