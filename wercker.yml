@@ -10,7 +10,9 @@ build:
         theme: allegiant
 deploy:
   steps:
-    - script:
-        name: install git
-        code: |
-          apt-get update && apt-get install git -y
+    - install-packages:
+        packages: git ssh-client
+    - lukevivier/gh-pages@0.2.1:
+        token: $GIT_TOKEN
+        domain: www.feliperuhland.com
+        basedir: public
