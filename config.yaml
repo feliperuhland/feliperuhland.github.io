@@ -1,0 +1,14 @@
+baseurl: http://feliperuhland.com
+languageCode: en-us
+title: Felipe Ruhland
+copyright: "&copy; Felipe Ruhland. All Rights Reserved."
+canonifyurls: true
+
+params:
+  ga_api_key: "Your Google Analytics tracking id" # Google Analytics API key.
+  avatar: "../../img/avatar.jpg" # Image should be square, and roughly 150px x 150px
+  github: "http://github.com/feliperuhland"
+  twitter: "https://twitter.com/feliperuhland"
+  linkedin: "https://br.linkedin.com/in/feliperuhland"
+  bio: "Software Engineer at Ecentry.io. Python Floripa member. Uses Archlinux, Openbox, Vim, Python and Go. Like Ansible, Docker, Jenkins, Git, ChatOps, continuous integration, automated testing. Lives in Florianopolis, Brazil and plays drums on weekends."
+...
