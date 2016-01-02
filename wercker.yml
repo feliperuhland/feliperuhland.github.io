@@ -14,8 +14,7 @@ deploy:
         name: install git
         code: |
           apt-get update && apt-get install git -y
-    - leipert/git-push:
-        gh_oauth: $GIT_TOKEN
+    - feliperuhland/git-push:
         basedir: public
         clean_removed_files: true
         branch: master
