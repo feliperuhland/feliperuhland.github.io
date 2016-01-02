@@ -14,7 +14,7 @@ deploy:
         name: install git
         code: |
           apt-get update && apt-get install git -y
-    - feliperuhland/git-push:
+    - githubpages:
         basedir: public
         clean_removed_files: true
         branch: master
