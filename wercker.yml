@@ -9,6 +9,8 @@ build:
         version: "0.15"
         config: config.yaml
         theme: allegiant
+        prod_branches: master
+        flags: --disableSitemap=true
 deploy:
   steps:
     - install-packages:
