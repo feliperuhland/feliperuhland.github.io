@@ -14,9 +14,6 @@ deploy:
         name: install git
         code: |
           apt-get update && apt-get install git -y
-    - githubpages:
-        basedir: public
-        clean_removed_files: true
-        branch: master
-        repo: feliperuhland/feliperuhland.github.io
-        gh_pages_domain: feliperuhland.com
+    - arjen/hugo-build@1.8.1
+        theme: allegiant
+        config: config.yaml
