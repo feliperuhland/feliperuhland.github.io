@@ -1,6 +1,6 @@
 +++
-date = "2016-01-01T20:10:42-02:00"
-draft = true
+date = "2016-01-02T22:03:13-02:00"
+draft = false
 title = "Day one"
 tags = ["personal"]
 
