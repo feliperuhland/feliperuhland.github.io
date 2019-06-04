@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ruhland
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://feliperuhland.com
+  * I am ruhland (https://keybase.io/ruhland) on keybase.
+  * I have a public key ASCNXV9eYqsaXpcO_fnV0SKK91ls4EmJk3JuRHp_LV0pRAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f09b9bc53c4d423494f57c6f4faedbec98622732a39556a9819cb5da326a93ce0a",
+      "host": "keybase.io",
+      "kid": "01208d5d5f5e62ab1a5e970efdf9d5d1228af7596ce0498993726e447a7f2d5d29440a",
+      "uid": "6d035f8656fc1b31387f5ca577e59219",
+      "username": "ruhland"
+    },
+    "merkle_root": {
+      "ctime": 1559614512,
+      "hash": "3f18b30a200b1034022251352e0ea441786718128283fe75878f8d6cf081d77eae38ba479fbadc6ce88a906d8c615e40c2841e1aada8d678d7a5685bf156b8cb",
+      "hash_meta": "ed85627fad528a78b7adf0509066ec24ef73f0f43972209d35f6cd4b9dfa3530",
+      "seqno": 5502105
+    },
+    "service": {
+      "entropy": "OhUPgIspCEOXbOYzfW4Z0Nea",
+      "hostname": "feliperuhland.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.0.0"
+  },
+  "ctime": 1559614803,
+  "expire_in": 504576000,
+  "prev": "0358346ed848c0bb906b9c12be5120574c7e27dc3f06292cad9966af6010bd29",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgjV1fXmKrGl6XDv351dEiivdZbOBJiZNybkR6fy1dKUQKp3BheWxvYWTESpcCEcQgA1g0bthIwLuQa5wSvlEgV0x+J9w/BiksrZlmr2AQvSnEIAVMyNEuEETm+btRb/nuwzhQ4sTN0I/M698PiSIM/dWOAgHCo3NpZ8RADdsoyoRW+CJFYO7zwQsuu57TkmTsMdUJuMqM9X0KWnANVWXGQhp9I/ll2UPm+Vt2kC/YZAIi8V5sJLetSqa0CahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPVvPjyIqdq+XGyeC+7ZolQERIZ6/4lCMj416395L0ELo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ruhland
+
+==================================================================
