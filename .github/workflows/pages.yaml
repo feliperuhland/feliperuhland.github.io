@@ -27,7 +27,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.13'
-        run: |
+
+      - run: |
           pip install git+https://github.com/feliperuhland/py2all#subdirectory=py2html
           python page.py > index.html
 
