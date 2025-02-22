@@ -4,39 +4,40 @@ on:
     branches: ["main"]
 
   workflow_dispatch:
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
 
-    concurrency:
-      group: "pages"
-      cancel-in-progress: false
+  permissions:
+    contents: read
+    pages: write
+    id-token: write
 
-jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+  concurrency:
+    group: "pages"
+    cancel-in-progress: false
 
-      - name: Build Pages
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.13'
+  jobs:
+    deploy:
+      environment:
+        name: github-pages
+        url: ${{ steps.deployment.outputs.page_url }}
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
 
-      - run: |
-          pip install git+https://github.com/feliperuhland/py2all#subdirectory=py2html
-          python page.py > index.html
+        - name: Build Pages
+          uses: actions/setup-python@v5
+          with:
+            python-version: '3.13'
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          repositorypath: '.'
+        - run: |
+            pip install git+https://github.com/feliperuhland/py2all#subdirectory=py2html
+            python page.py > index.html
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        - name: Upload artifact
+          uses: actions/upload-pages-artifact@v3
+          with:
+            repositorypath: '.'
+
+        - name: Deploy to GitHub Pages
+          id: deployment
+          uses: actions/deploy-pages@v4
